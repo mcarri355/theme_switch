@@ -2,7 +2,7 @@
 import { useContext } from 'react';
 import { StyleContext } from '../App';
 
-const Content = () => {
+const MainContent = () => {
   let { theme, info } = useContext(StyleContext);
 
   return (
@@ -32,4 +32,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default MainContent;

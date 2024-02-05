@@ -22,7 +22,7 @@ html {
 
 /* Body Styling */
 body {
-    background-color: rgb(202, 202, 202);
+    background-color: lightgray;
     transition: background-color 0.2s;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .darkNav .darkTitle {
-    color: rgb(202, 202, 202);
+    color: lightgray;
 }
 
 .darkContentHome {
@@ -86,7 +86,7 @@ body {
 
 .darkFooter .darkContact {
     transition: color 0.2s;
-    color: rgb(202, 202, 202);
+    color: lightgray;
 }
 
 /* Switch Button Styling */
@@ -97,7 +97,7 @@ body {
 
 .switchCont .switchBtn {
     background-color: rgb(25, 25, 25);
-    color: rgb(202, 202, 202);
+    color: lightgray;
     border: none;
     border-radius: 0.25rem;
     padding: 0.5rem;
@@ -107,7 +107,7 @@ body {
 
 .switchCont .darkSwitchBtn {
     color: rgb(25, 25, 25);
-    background-color: rgb(202, 202, 202);
+    background-color: lightgray;
 }
 
 /* Main Content Styling */
@@ -200,7 +200,7 @@ body {
 
 /* Dark Mode Styles */
 .darkHeader {
-    color: rgb(202, 202, 202);
+    color: lightgray;
     background-color: rgb(25, 25, 25);
     transition: color 0.2s, background-color 0.2s;
 }

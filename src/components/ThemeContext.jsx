@@ -2,7 +2,7 @@
 import React, { useContext } from 'react';
 import { StyleContext } from '../App';
 
-const Switcher = () => {
+const ThemeContext = () => {
   // gets the theme and setTheme function from the createContext
   // in order to change the mode
   let { theme, setTheme } = useContext(StyleContext);
@@ -28,4 +28,4 @@ const Switcher = () => {
   );
 };
 
-export default Switcher;
+export default ThemeContext;
