@@ -14,7 +14,9 @@ const MainContent = () => {
           {info.map((game) => (
             <div className={theme === 'light' ? 'gameBox' : 'gameBox darkGame'} key={game.id}>
               <p className={theme === 'light' ? 'gameTitle' : 'gameTitle darkGameTitle'}>
-                <span className="gameName">{game.title}</span> <br /> {game.genre}
+                <p className="gameName">{game.title}</p> 
+                <br />
+                <p>{game.genre}</p>
               </p>
               <br />
               <p className={theme === 'light' ? 'gameDesc' : 'gameDesc darkGameDesc'}>

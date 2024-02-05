@@ -1,4 +1,3 @@
-// data.json
 export const data = [
   {
     id: 1,

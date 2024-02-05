@@ -32,7 +32,7 @@ body {
     top: 0;
     width: 100vw;
     height: 12vh;
-    background-color: darkgray;
+    background-color: rgb(225, 225, 225);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -65,7 +65,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: darkgray;
+    background-color: rgb(225, 225, 225);
     transition: background-color 0.2s;
 }
 
@@ -130,11 +130,11 @@ body {
     height: 30rem;
     margin: 1rem;
     border-radius: 1rem;
-    background-color: darkgray;
+    background-color: rgb(225, 225, 225);
     padding: 1rem;
     transition: background-color 0.2s;
     color: rgb(25, 25, 25);
-        box-shadow: rgba(55, 55, 55, 0.4) 5px 5px, rgba(55, 55, 55, 0.3) 10px 10px, rgba(55, 55, 55, 0.2) 15px 15px, rgba(55, 55, 55, 0.1) 20px 20px, rgba(55, 55, 55, 0.05) 25px 25px;
+        box-shadow: rgba(150, 150, 150, 0.4) 5px 5px, rgba(150, 150, 150, 0.3) 10px 10px, rgba(150, 150, 150, 0.2) 15px 15px, rgba(150, 150, 150, 0.1) 20px 20px, rgba(150, 150, 150, 0.05) 25px 25px;
 }
 
 .gameBox .gameTitle {
@@ -164,6 +164,7 @@ body {
 .gameBox.darkGame {
     background-color: rgb(52, 52, 52);
     color: white;
+    box-shadow: rgba(95, 95, 95, 0.4) 5px 5px, rgba(95, 95, 95, 0.3) 10px 10px, rgba(95, 95, 95, 0.2) 15px 15px, rgba(95, 95, 95, 0.1) 20px 20px, rgba(95, 95, 95, 0.05) 25px 25px;
 }
 
 .gameBox.darkGame .darkGameTitle {
