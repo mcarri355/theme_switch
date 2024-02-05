@@ -1,9 +1,12 @@
-import React from 'react'
+import {useContext} from 'react';
+import {StyleContext} from '../App'
 
 const Header = () => {
-  return (
-    <div>Header</div>
-  )
+    let {theme} = useContext(StyleContext);
+
+    return (
+        <div className={theme==='light' ? 'header' : 'header darkHeader'}>Video Games</div>
+    )
 }
 
-export default Header
+export default Header;

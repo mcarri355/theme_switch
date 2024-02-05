@@ -1,0 +1,223 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* ::-webkit-scrollbar {
+    display: none;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+/* Body Styling */
+body {
+    background-color: rgb(202, 202, 202);
+    transition: background-color 0.2s;
+}
+
+/* Header and Navigation Styling */
+.navCont {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 12vh;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.navCont h1 {
+    color: rgb(25, 25, 25);
+    margin-left: 1.5rem;
+    transition: color 0.2s;
+}
+
+.darkNav {
+    background-color: rgb(10, 10, 10);
+}
+
+.darkNav .darkTitle {
+    color: rgb(202, 202, 202);
+}
+
+.darkContentHome {
+    background-color: black;
+}
+
+/* Footer Styling */
+.footerCont {
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: darkgray;
+    transition: background-color 0.2s;
+}
+
+.footerCont .contactSection {
+    font-size: 1.25rem;
+    color: rgb(25, 25, 25);
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+
+.footerCont .contactSection .contactTitle {
+    font-weight: bold;
+}
+
+.darkFooter {
+    background-color: rgb(10, 10, 10);
+}
+
+.darkFooter .darkContact {
+    transition: color 0.2s;
+    color: rgb(202, 202, 202);
+}
+
+/* Switch Button Styling */
+.switchCont {
+    z-index: 2;
+    margin-right: 4rem;
+}
+
+.switchCont .switchBtn {
+    background-color: rgb(25, 25, 25);
+    color: rgb(202, 202, 202);
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.switchCont .darkSwitchBtn {
+    color: rgb(25, 25, 25);
+    background-color: rgb(202, 202, 202);
+}
+
+/* Main Content Styling */
+.contentSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gamesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1rem;
+}
+
+.gameBox {
+    width: 25rem;
+    height: 30rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    background-color: darkgray;
+    padding: 1rem;
+    transition: background-color 0.2s;
+    color: rgb(25, 25, 25);
+        box-shadow: rgba(55, 55, 55, 0.4) 5px 5px, rgba(55, 55, 55, 0.3) 10px 10px, rgba(55, 55, 55, 0.2) 15px 15px, rgba(55, 55, 55, 0.1) 20px 20px, rgba(55, 55, 55, 0.05) 25px 25px;
+}
+
+.gameBox .gameTitle {
+    transition: color 0.2s;
+    text-align: center;
+    color: rgb(25, 25, 25);
+    font-size: 1.75rem;
+}
+
+.gameBox .gameTitle .gameName {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.gameBox .gameDesc {
+    transition: color 0.2s;
+    color: rgb(25, 25, 25);
+    font-size: 1.25rem;
+}
+
+.gameBox .gameDesc .gameDescription {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.gameBox.darkGame {
+    background-color: rgb(52, 52, 52);
+    color: white;
+}
+
+.gameBox.darkGame .darkGameTitle {
+    color: white;
+}
+
+.gameBox.darkGame .darkGameDesc {
+    color: white;
+}
+
+.gameBox .gameImg {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.darkContent {
+    background-color: rgb(25, 25, 25);
+}
+
+.darkContent .darkGame {
+    background-color: rgb(52, 52, 52);
+}
+
+/* Header Styling */
+.header {
+    color: rgb(25, 25, 25);
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 14vh;
+    transition: color 0.2s;
+}
+
+/* Dark Mode Styles */
+.darkHeader {
+    color: rgb(202, 202, 202);
+    background-color: rgb(25, 25, 25);
+    transition: color 0.2s, background-color 0.2s;
+}
+
+.darkMode .contentSection {
+    background-color: rgb(52, 52, 52);
+    text-align: center
+}
+
+.darkMode .gamesContainer {
+    background-color: rgb(52, 52, 52);
+}
+
+.darkMode .gameBox {
+    background-color: rgb(52, 52, 52);
+}
+
+.theme-dark .toggle-slider {
+    transform: translateX(20px);
+}
