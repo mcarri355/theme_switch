@@ -7,9 +7,7 @@ const MainContent = () => {
 
   return (
     <>
-      {/* determines whether or not to load the light or dark mode */}
       <div className={theme === 'light' ? 'contentSection' : 'contentSection darkContent'}>
-        {/* maps through the data and creates individual elements */}
         <div className="gamesContainer">
           {info.map((game) => (
             <div className={theme === 'light' ? 'gameBox' : 'gameBox darkGame'} key={game.id}>
