@@ -1,4 +1,3 @@
-// Switcher.jsx
 import React, { useContext } from 'react';
 import { StyleContext } from '../App';
 
@@ -12,7 +11,7 @@ const ThemeContext = () => {
 
   return (
     <>
-      <div className={`switchCont ${theme === 'light' ? '' : 'darkSwitch'}`}>
+      <div className={`switch ${theme === 'light' ? '' : 'darkSwitch'}`}>
         <button
           onClick={toggleTheme}
           className={`switchBtn ${theme === 'light' ? '' : 'darkSwitchBtn'}`}

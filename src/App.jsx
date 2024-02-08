@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <div className={theme==='light' ? 'contentHome' : 'contentHome darkContentHome'}>
+      <div className={theme==='light' ? 'contentHome' : 'contentHome darkContent'}>
           <StyleContext.Provider value={{theme, setTheme, info}}>
             <Nav/>
             <Header/>

@@ -1,4 +1,3 @@
-// Content.jsx
 import { useContext } from 'react';
 import { StyleContext } from '../App';
 

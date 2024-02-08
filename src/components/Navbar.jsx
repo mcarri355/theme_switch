@@ -1,15 +1,16 @@
-import Switcher from './ThemeContext';
-import {useContext} from 'react';
 import {StyleContext} from '../App'
+import ThemeContext from './ThemeContext';
+import {useContext} from 'react';
+
 
 const Nav = () => {
   let {theme} = useContext(StyleContext);
 
   return (
     <>
-      <div className={theme==='light' ? 'navCont' : 'navCont darkNav'}>
+      <div className={theme==='light' ? 'nav' : 'nav darkNav'}>
           <h1 className={theme==='light' ? '' : 'darkTitle'}>Video Games Epic</h1>
-          <Switcher></Switcher>
+          <ThemeContext/>
         </div>
     </>
   )

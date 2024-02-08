@@ -6,22 +6,23 @@ const Footer = () => {
 
   return (
     <>
-      <div className={theme === 'light' ? 'footerCont' : 'footerCont darkFooter'}>
+      <div className={theme === 'light' ? 'footer' : 'footer darkFooter'}>
         <div className="contact">
           <p className={theme === 'light' ? 'contactSection' : 'contactSection darkContact'}>
-            <span className="contactTitle">Email: </span> mcarri355@west-mec.org
+            <span className="contactTitle">Email: <a href="">mcarri355@west-mec.org</a></span> 
           </p>
           <p className={theme === 'light' ? 'contactSection' : 'contactSection darkContact'}>
-            <span className="contactTitle">GitHub: </span>mcarri355
+            <span className="contactTitle">GitHub: <a href="github.com">mcarri355</a> </span>
           </p>
           <p className={theme === 'light' ? 'contactSection' : 'contactSection darkContact'}>
-            <span className="contactTitle">LinkedIn: </span>N/A
+            <span className="contactTitle">LinkedIn: <a href="linkedin.com">N/A</a></span>
           </p>
           <p className={theme === 'light' ? 'contactSection' : 'contactSection darkContact'}>
-            <span className="contactTitle">Twitter: </span>N/A
+            <span className="contactTitle">Twitter:  <a href="twitter.com">N/A</a></span>
           </p>
         </div>
       </div>
+      
     </>
   );
 };

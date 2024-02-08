@@ -1,8 +1,11 @@
-/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: blue;
 }
 
 * ::-webkit-scrollbar {
@@ -12,7 +15,7 @@
 body,
 html {
     height: 100%;
-    width: 100%;
+    width: 100vw;
 }
 
 #root {
@@ -20,14 +23,13 @@ html {
     width: 100%;
 }
 
-/* Body Styling */
+
 body {
     background-color: lightgray;
     transition: background-color 0.2s;
 }
 
-/* Header and Navigation Styling */
-.navCont {
+.nav {
     position: fixed;
     top: 0;
     width: 100vw;
@@ -40,7 +42,7 @@ body {
     transition: background-color 0.2s;
 }
 
-.navCont h1 {
+.nav h1 {
     color: rgb(25, 25, 25);
     margin-left: 1.5rem;
     transition: color 0.2s;
@@ -54,12 +56,11 @@ body {
     color: lightgray;
 }
 
-.darkContentHome {
+.darkContent {
     background-color: black;
 }
 
-/* Footer Styling */
-.footerCont {
+.footer {
     width: 100vw;
     text-align: center;
     display: flex;
@@ -69,14 +70,14 @@ body {
     transition: background-color 0.2s;
 }
 
-.footerCont .contactSection {
+.footer .contactSection {
     font-size: 1.25rem;
     color: rgb(25, 25, 25);
     padding: 0.5rem;
     margin-left: 1rem;
 }
 
-.footerCont .contactSection .contactTitle {
+.footer {
     font-weight: bold;
 }
 
@@ -89,13 +90,12 @@ body {
     color: lightgray;
 }
 
-/* Switch Button Styling */
-.switchCont {
+.switch {
     z-index: 2;
     margin-right: 4rem;
 }
 
-.switchCont .switchBtn {
+.switch .switchBtn {
     background-color: rgb(25, 25, 25);
     color: lightgray;
     border: none;
@@ -105,12 +105,11 @@ body {
     transition: background-color 0.2s, color 0.2s;
 }
 
-.switchCont .darkSwitchBtn {
+.switch .darkSwitchBtn {
     color: rgb(25, 25, 25);
     background-color: lightgray;
 }
 
-/* Main Content Styling */
 .contentSection {
     display: flex;
     flex-wrap: wrap;
@@ -189,7 +188,6 @@ body {
     background-color: rgb(52, 52, 52);
 }
 
-/* Header Styling */
 .header {
     color: rgb(25, 25, 25);
     font-size: 3rem;
@@ -199,7 +197,6 @@ body {
     transition: color 0.2s;
 }
 
-/* Dark Mode Styles */
 .darkHeader {
     color: lightgray;
     background-color: rgb(25, 25, 25);
@@ -222,3 +219,5 @@ body {
 .theme-dark .toggle-slider {
     transform: translateX(20px);
 }
+
+
