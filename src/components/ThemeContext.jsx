@@ -14,9 +14,8 @@ const ThemeContext = () => {
       <div className={`switch ${theme === 'light' ? '' : 'darkSwitch'}`}>
         <button
           onClick={toggleTheme}
-          className={`switchBtn ${theme === 'light' ? '' : 'darkSwitchBtn'}`}
-        >
-          Change Theme
+          className={`switchBtn ${theme === 'light' ? '' : 'darkSwitchBtn'}`}>
+           Theme
         </button>
       </div>
     </>

@@ -3,7 +3,8 @@ export const data = [
     id: 1,
     title: 'The Legend of Zelda: Breath of the Wild',
     image:
-      'https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000000025/7137262b5a64d921e193653f8aa0b722925abc5680380ca0e18a5cfd91697f58',
+      'https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2017/03/06/1331848012461_2/an-image-of-link-in-the-new-zelda-breath-of-the-wild-video-game',
+
     genre: 'Action-Adventure',
     description:
       'An action-adventure game set in an open world where players control Link.',
@@ -11,8 +12,7 @@ export const data = [
   {
     id: 2,
     title: 'The Witcher 3: Wild Hunt',
-    image:
-      'https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg?t=1693590732',
+    image: 'https://pbs.twimg.com/media/FnfVL5SXkAAKXBc.png:large',
     genre: 'Action RPG',
     description:
       'A role-playing game where players control Geralt of Rivia, a monster hunter.',
@@ -48,7 +48,7 @@ export const data = [
     id: 6,
     title: 'Super Mario Odyssey',
     image:
-      'https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000001130/c42553b4fd0312c31e70ec7468c6c9bccd739f340152925b9600631f2d29f8b5',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQIGcs6yrRwRFTMamr4Pnl0JG9m2jnLwGD3Q&usqp=CAU',
     genre: 'Platformer',
     description:
       'A platformer where Mario travels to various kingdoms in an airship to rescue Princess Peach.',
@@ -84,7 +84,7 @@ export const data = [
     id: 10,
     title: 'Minecraft',
     image:
-      'https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000000964/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f',
+      'https://gaming-cdn.com/images/products/12567/616x353/minecraft-java-and-bedrock-edition-pc-game-europe-cover.jpg?v=1705586759',
     genre: 'Sandbox',
     description:
       'A sandbox game that allows players to build and explore blocky worlds with infinite possibilities.',
